@@ -1,0 +1,53 @@
+O HTML 
+O html é o bloco fundamental do desenvolvimento web, 
+fornecendo as estruturas ao um site.
+
+Anatomia da TAGS HTML 
+Estrutura básica das TAGS HTML
+HTML boilerplate 
+
+Própriedades Chaves do HTML 
+CATEGORIA DA TAG 
+TIPO DE CONTEÚDO QUE ELA RECEBE ( CONTENT MODEL)
+OS ATRIBUTOS DA TAG 
+OS EVENTOS DA TAG 
+A INTERFACE DO DOM DA TAG 
+
+Obs:  No inínio se usavam muitas div para construção de páginas, 
+depois foram criadas tag semânticas que destinam cada tag um local e 
+função no página.
+
+Tag Semânticas 
+<section>
+Representa uma seção generica de conteúdo 
+
+<header>
+Cabeçalho da página
+
+<article>
+Conteúdo relevante dentro da página
+
+<aside>
+Links relacionados ao conteúdo principal de uma página
+
+<footer>
+Roda pé da página e de parte da página,
+pode ser o roda de <artico> ou de uma <section>
+
+
+
+<h1> ao <h6>
+
+Obs: A tag <p> representa um parágrafo mas aceita muitos 
+elementos como códigos, vídeos e imagens.
+
+Obs: O elemento <a> recebe vários atributos, mas dois são os mais 
+importantes <a href> (hiperlink) que faz o ancora encaminha o click para outra 
+página, já o <a target = ""> sever para indicar como o link vai ser aberto, mostrado.
+
+
+O elemento <IMG> é sem tag de fechamento.
+
+Obs: <ul> Representa uma lista onde a ordem dos itens não é importante 
+obs: <ol> Representa uma lista onde a ordem dos itens é importante.
+obs: <li> é o item da lista 
