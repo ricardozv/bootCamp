@@ -1,0 +1,95 @@
+O HTML 
+O html é o bloco fundamental do desenvolvimento web, 
+fornecendo as estruturas ao um site.
+
+Anatomia da TAGS HTML 
+Estrutura básica das TAGS HTML
+HTML boilerplate 
+
+Própriedades Chaves do HTML 
+CATEGORIA DA TAG 
+TIPO DE CONTEÚDO QUE ELA RECEBE ( CONTENT MODEL)
+OS ATRIBUTOS DA TAG 
+OS EVENTOS DA TAG 
+A INTERFACE DO DOM DA TAG 
+
+Obs:  No inínio se usavam muitas div para construção de páginas, 
+depois foram criadas tag semânticas que destinam cada tag um local e 
+função no página.
+
+Tag Semânticas 
+<section>
+Representa uma seção generica de conteúdo 
+
+<header>
+Cabeçalho da página
+
+<article>
+Conteúdo relevante dentro da página
+
+<aside>
+Links relacionados ao conteúdo principal de uma página
+
+<footer>
+Roda pé da página e de parte da página,
+pode ser o roda de <artico> ou de uma <section>
+
+
+
+<h1> ao <h6>
+Obs: A tag <p> representa um parágrafo mas aceita muitos 
+elementos como códigos, vídeos e imagens.
+
+Obs: O elemento <a> recebe vários atributos, mas dois são os mais 
+importantes <a href> (hiperlink) que faz o ancora encaminha o click para outra 
+página, já o <a target = ""> sever para indicar como o link vai ser aberto, mostrado.
+
+
+O elemento <IMG> é sem tag de fechamento.
+
+Obs: <ul> Representa uma lista onde a ordem dos itens não é importante 
+obs: <ol> Representa uma lista onde a ordem dos itens é importante.
+obs: <li> é o item da lista 
+
+Observação: O ambiente HTML é um ambiente voltado a eventos.
+
+################### JAVASCRIPT ######################
+getElementById: Retorna um objeto a partir do id.
+getElementByClassName: Retorna uma coleção de objetos a partir do atributo class 
+querySelector: Retorna o primeiro objeto com o seletor css
+querySelectorAll : retorna uma coleção de objetos com o seletor CSS.
+
+
+createElement: Cria um nó do tipo Elemento (tag)
+createTextNode: Cria um nó de texto
+createAttribute: Cria um atributo. O nó pode utilizar com setAttributeNode
+createComment: Cria um comentário
+
+########################## Eventos ###########################
+
+Evento	Aplicação
+onsubmit: Efetua a validação do formulário imediatamente antes do envio para o servidor. Necessita o retorno booleano, indicando se os valores podem ser enviados ou não
+onclick: Normalmente uma chamada explicita de validação. Muito utilizado em botões de rádio e caixas de marcação
+onchange: Ocorre quando o valor (value) sofre uma alteração
+onfocus: Ocorre quando o componente ganha o foco. Pode ser utilizado, por exemplo, para apagar o valor do campo
+onblur: Ocorre na perda do foco pelo componente. É comum a aplicação de máscaras em valores numéricos como CEP e CPF
+onsearch: Este evento é iniciado quando um usuário digita algo em um campo de pesquisa (type=”search”)
+onselect: Utilizado quando algum texto é selecionado no campo
+
+
+Prototype: Permite adicionar atributos e métodos a uma classe já existente
+Tem a capacidade de expandir funcionalidades de classes existentes sem 
+interferir nas classes originais.
+
+Quando abstraímos algo, estamos preocupados apenas com os detalhes 
+que sejam relevantes para o problema de interesse, e estas 
+abstrações serão representadas como classes na POO, que trazem a 
+definição dos atributos e métodos suportados pelos personagens.
+
+Os atributos definem características físicas, como cor, idade, 
+endereço etc., enquanto métodos são as ações, ou verbos, que podem 
+ser praticadas, tais como comer, andar ou dormir.
+
+Uma classe funciona como um molde (tipo ou domínio), de forma a 
+definir como serão os objetos criados a partir da mesma, como no 
+exemplo seguinte, em JavaScript
