@@ -1,0 +1,46 @@
+Orientação a objetos com Javascript
+
+A herança no javascript é baseada em protótipos.
+// prototype é uma variavél que armazena as definições do objeto //
+__proto__ aponta para o prototypo do tipo que 
+foi criado, baseado num constructor, é criado um 
+prototype.
+
+new foo
+Um novo objeto é criado, herdando Foo.prototype
+
+A função construtora Foo é chamada com os argumentos 
+especificados e com o  ` this ` vinculado
+ao novo objeto criado.
+
+Caso a função construtora tenha um retorno explícito,
+será respeitado o seu `return`. Senão, será 
+retornado o objeto criado no passo 1.
+
+Design patterns 
+Design patterns ou padrões de projetos são soluções
+generalistas para problemas recorrentes durante o 
+desenvolvimento de um software. É uma definição de 
+alto nível de como um problema comum pode ser solucionado.
+
+ Formato de um pattern 
+ Nome 
+ Exemplo 
+ Contexto 
+ Problema 
+ Solução 
+
+ Tipos de Design patterns
+ Criação 
+ Estruturais 
+ Comportamentais 
+
+################################################
+Manipulação e iteração de arrays 
+Exemplo 
+const arr = [1, 2, 3];
+const arr2 = new Array(1, 2, 3);
+
+
+
+

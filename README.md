@@ -1,2 +1,2 @@
 # bootCamp
-Projetos do bootcamp digitalInnovatioOne 
+Revisão de tecnologias 

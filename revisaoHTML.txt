@@ -92,4 +92,29 @@ ser praticadas, tais como comer, andar ou dormir.
 
 Uma classe funciona como um molde (tipo ou domínio), de forma a 
 definir como serão os objetos criados a partir da mesma, como no 
-exemplo seguinte, em JavaScript
+exemplo seguinte, em JavaScript.
+
+Quando recebemos dados de plataformas como essa, os dados são texto e não objetos JSON, 
+devendo ser transformados no JavaScript para utilização posterior. 
+Para tal, devemos utilizar o método de conversão JSON.parse.
+
+CSS
+Cria regras de estilo para elementos ou grupo de elementos 
+Seletores ------ p, h1, 
+color: ----
+font-size: ----
+
+Observação: Um id o seletor é um ponto, seletor de uma 
+classe é um #
+
+Box Model 
+Margin / Margem: São os espaçamentos entre elementos 
+Border / borda: Circunda o pading e conteúdo.
+Padding : É o espaçamento entre a borda e o conteúdo.
+Content / Conteúdo: Conteúdo do elemento ou grupos de elementos 
+
+Fex Box 
+Tag display: flex
+Torna a tag um elemento do tipo flex container, e assim automaticamente 
+todos os seus filhos diretos desta tag, tornam - se em flex items.
+
